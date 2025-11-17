@@ -32,7 +32,7 @@ class Task {
     isComplete() {
         return this.#completed;
     }
-    static getTotalTask() {
+    static getTotalTasks() {
         return Task.allTasks.length;
     }
     static findByTitle() {
