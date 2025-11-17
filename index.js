@@ -23,7 +23,7 @@ class Task {
     }
     workOn(minutes) {
         this.#minutesSpent += minutes;
-        console.log(`Worked on ${this.title} for ${minutes}. Total time: ${this.#minutesSpent} minutes.`);
+        console.log(`Worked on ${this.title} for ${minutes} minutes. Total time: ${this.#minutesSpent} minutes`);
     }
     complete() {
         this.#completed = true;
